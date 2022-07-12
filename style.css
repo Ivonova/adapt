@@ -1,0 +1,35 @@
+.white{
+width: 1520px;
+height: 300px;
+background-color: aqua;
+
+}
+.red{
+width: 1520px;
+height: 300px;
+background-color: blue;
+}
+.mobile {font-size: 2rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 140px;
+}
+.A50{
+    font-size: 2rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding-top: 140px;
+}
+.mobile_flex{
+    display: flex;
+    
+}
+.A50_flex{
+    display: flex;
+   
+}
+@media (min-width: 1000px){
+
+    .white {background-color: rgb(255, 68, 0);}
+    .red {background-color: rgb(255, 255, 0);}
+    .mobile_flex{display: flex;justify-content: center;}
+    .A50_flex{display: flex;justify-content: center;}
+}
